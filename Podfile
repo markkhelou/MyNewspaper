@@ -6,11 +6,4 @@ target 'MyNewspaper' do
   pod 'SwiftGen', '~> 6.0'
   pod 'KeychainSwift', '~> 20.0'
   pod "Resolver"
-
-  # Pods for MyNewspaper
-
-  target 'MyNewspaperTests' do
-#    pod 'Mockit', '1.5.0'
-  end
-
 end
