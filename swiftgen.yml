@@ -1,0 +1,12 @@
+strings:
+  inputs: MyNewspaper/Resources/Localizable/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: MyNewspaper/SwiftGen/Strings.swift
+xcassets:
+  inputs:
+    - MyNewspaper/Resources/Images/Images.xcassets
+  outputs:
+    - templateName: swift5
+      output: MyNewspaper/SwiftGen/Assets.swift
+    
